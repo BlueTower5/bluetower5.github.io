@@ -33,9 +33,13 @@ section {
 }
 
 .hero-image {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Adjust this percentage as needed */
+    max-width: 600px; /* Optional: set a maximum width to limit its size on large screens */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
 }
+
 
 .gallery-container {
     display: grid;
@@ -82,3 +86,42 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+/* Header styles */
+#site-header {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px; /* Extra padding to give the header a bigger blue area */
+    background-color: #0077be; /* Blue background color */
+}
+
+/* Logo styling - larger and with a bit of margin */
+#logo {
+    width: 80px; /* Adjust this for a bigger logo size */
+    height: auto; /* Keeps the logo aspect ratio */
+    margin-right: 20px; /* Space between logo and title */
+}
+
+/* Site title styling */
+#site-header h1 {
+    font-size: 28px; /* Increase font size to match the larger logo */
+    color: white;
+    margin: 0;
+    margin-right: auto; /* Pushes the button to the far right */
+}
+
+/* Button styling */
+#site-header button {
+    padding: 10px 20px;
+    font-size: 16px; /* Make the button text a bit larger */
+    background-color: white;
+    color: #0077be;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#site-header button:hover {
+    background-color: #005f9e;
+    color: white;
+}
+
