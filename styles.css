@@ -33,8 +33,8 @@ section {
 }
 
 .hero-image {
-    width: 100%; /* Adjust this percentage as needed */
-    max-width: 600px; /* Optional: set a maximum width to limit its size on large screens */
+    width: 60%; /* Adjust this percentage as needed */
+    max-width: 450px; /* Optional: set a maximum width to limit its size on large screens */
     height: auto; /* Maintains aspect ratio */
     display: block;
     margin: 0 auto; /* Centers the image horizontally */
@@ -96,7 +96,7 @@ button {
 
 /* Logo styling - larger and with a bit of margin */
 #logo {
-    width: 80px; /* Adjust this for a bigger logo size */
+    width: 50px; /* Adjust this for a bigger logo size */
     height: auto; /* Keeps the logo aspect ratio */
     margin-right: 20px; /* Space between logo and title */
 }
